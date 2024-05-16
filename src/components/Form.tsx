@@ -2,7 +2,7 @@ import React from "react";
 
 interface FormProps {
   labelOne: string;
-  typeOne: "email" | "password" | "date" | "url";
+  typeOne: "email" | "password" | "date" | "url" | "text";
   placeholderOne: string;
   labelTwo: string;
 }

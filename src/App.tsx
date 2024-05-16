@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar";
 function App() {
   return (
     <>
-      <NavBar textOne="Header" />
+      <NavBar textOne="Home" linkOne="/" textTwo="form" linkTwo="/form" />
       <Routes>
         <Route path="/" Component={MainPage}></Route>
         <Route path="/form" Component={FormPage}></Route>
